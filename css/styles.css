@@ -32,7 +32,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  font-family: var(--fs-200);
+  font-size: var(--fs-200);
   font-family: "Kumbh Sans", sans-serif;
   display: flex;
   line-height: 1.2;
@@ -43,6 +43,9 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background: url(../images/bg-pattern-top.svg) no-repeat -300px -580px,
+    url(../images/bg-pattern-bottom.svg) no-repeat 700px 300px,
+    var(--color-Dark-cyan);
 }
 
 html {
