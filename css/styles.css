@@ -42,6 +42,10 @@ body {
   line-height: 1.5;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -76,4 +80,11 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+:root {
+  --color-Dark-cyan: hsl(185, 75%, 39%);
+  --color-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-Dark-grayish-blue: hsl(227, 10%, 46%);
+  --color-Dark-gray: hsl(0, 0%, 59%);
 }
