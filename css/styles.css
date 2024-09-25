@@ -32,7 +32,10 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  font-family: var(--fs-200);
+  font-family: "Kumbh Sans", sans-serif;
   display: flex;
+  line-height: 1.2;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -87,4 +90,9 @@ select {
   --color-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
   --color-Dark-grayish-blue: hsl(227, 10%, 46%);
   --color-Dark-gray: hsl(0, 0%, 59%);
+
+  --fs-200: 1.8rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
 }
